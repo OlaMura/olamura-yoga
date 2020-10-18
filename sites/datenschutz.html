@@ -886,18 +886,18 @@
           if (status === 'allow') {
             function gtag(){window.dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'UA-179620073-1', { 'anonymize_ip': true });
+            gtag('config', 'UA-179620073-2', { 'anonymize_ip': true });
           }
         },
         onStatusChange: function(status) {
           if (status === 'deny') {
-            window['ga-disable-UA-179620073-1'] = true;
+            window['ga-disable-UA-179620073-2'] = true;
             $('.cc-window').css('display', 'none')
           } else {
             function gtag(){window.dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'UA-179620073-1', { 'anonymize_ip': true });
-            window['ga-disable-UA-179620073-1'] = false;
+              gtag('config', 'UA-179620073-2', { 'anonymize_ip': true });
+            window['ga-disable-UA-179620073-2'] = false;
             $('.cc-window').css('display', 'none')
           }
         },
