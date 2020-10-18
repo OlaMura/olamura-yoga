@@ -800,3 +800,8 @@ nav li .active {
 .impressPrivacy section a {
   color: #FFF;
 }
+
+.impressPrivacy footer h5,
+.impressPrivacy footer p {
+  margin-bottom: 0;
+}
