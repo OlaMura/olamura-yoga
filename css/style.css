@@ -243,7 +243,7 @@ header .wrapper {
 }
 
 .introContainer {
-  padding: 2rem 2rem 5rem 2rem;
+  padding: 2rem 2rem 6rem 2rem;
   flex-grow: 1;
   display: flex;
   align-items: flex-end;
@@ -346,11 +346,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 .yogaangebotHeadline h1 {
-  color: #fff;
+  color: #303030;
 }
 
 .yogaangebotHeadline p {
-  color: #fff;
+  color: #303030;
+}
+
+.yogaangebotHeadline .block {
+  background-color: #303030;
 }
 
 .question {
