@@ -185,7 +185,7 @@ header .wrapper {
   flex-direction: column;
   background-image: url("../img/olamura_vinyasa_yoga_koeln.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: 50% 45%;
 }
 
 #yoga {
