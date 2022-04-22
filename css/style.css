@@ -103,7 +103,8 @@ p {
 }
 
 .grey {
-  background-color: #D8D8D8;
+  /* background-color: #D8D8D8; */
+  background-color: #CFC3B9;
 }
 
 .pink {
@@ -226,9 +227,6 @@ header .wrapper {
   right: 0;
 }
 .uebermichbg {
-  background-image: url("../img/Foto_von_La_Miko_von_Pexels.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 #uebermich a {
