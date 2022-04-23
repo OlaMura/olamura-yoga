@@ -104,7 +104,9 @@ p {
 
 .grey {
   /* background-color: #D8D8D8; */
-  background-color: #CFC3B9;
+  /* background-color: #CFC3B9; */
+  background: rgb(207,195,185);
+background: linear-gradient(180deg, rgba(207,195,185,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .pink {
